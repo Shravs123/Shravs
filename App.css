@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image{
+  width:50px;
+  height:50px;
+  margin-left: 30px;
+}
+.signup{
+  /* Add shadows to create the "card" effect */
+  margin: auto;
+  max-width: 500px;
+  box-shadow: 4px 4px 8px 8px rgba(0,0,0,0.2);
+  transition: 0.9s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.signup:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.carosel{
+  margin:auto;
+  max-width: 1400px;
+  position: relative;
+}
+
+.btn1{
+  border: 0cm;
+  background:0cm;
+  color:gray;
+}
+
+
+
+.icon{
+  border-bottom: 1px solid black;
+  padding-top: 30px;
+}
+.input{
+  border: none transparent;
+  outline: none; 
+}
+
+.form-submit{
+  padding-top: 30px;
+  border: blue;
+  fill: cyan;
+}
+
+.button {
+  transition-duration: 0.4s;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.images{
+    width:50%;
+    height:10%;
+    margin-left:250px;
+    margin-top: -400px;
+}
